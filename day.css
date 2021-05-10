@@ -3,203 +3,46 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Lato, "Segoe UI", Verdana, sans-serif;
   background-color: #efefef10;
   color: #585858;
 }
 
 h1 {
   color: #4d4943;
-  font-weight: 400;
-  font-size: 5rem;
-  font-family: Rokkitt, Raleway, Tahoma, sans-serif;
-  font-weight: 100;
-  margin: 0;
-  margin-bottom: 10px;
-  text-shadow: 0px 0px 5px #fff7;
 }
 
 h2 {
-  font-size: 28px;
-  font-weight: 200;
   color: #df7a29;
-  margin: 0;
-  margin-top: 1.5rem;
 }
 
 h2::before {
-  content: "# ";
-  font-size: 32px;
   color: #e46635;
 }
 
 a {
   color: #239a9e;
-  text-decoration: none;
 }
 
 a:hover {
   color: #f16e3f;
-  text-decoration: underline;
-}
-
-ul {
-  margin: 0;
-}
-
-ul,
-li {
-  font-size: 1rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-.container {
-  width: 70vw;
-  margin: 0 auto;
 }
 
 .bg {
   background: linear-gradient(0deg, #fff, #fff4),
     url(img/pexels-photo-317377.jpeg);
-  background-size: cover;
   background-position-y: 0px, -550px;
-  height: calc(14vw + 11vh);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 }
 
 .bio {
-  font-size: 1.3rem;
   color: #333c;
-  padding-right: 5px;
-  margin-bottom: 20px;
-}
-
-.icons {
-  padding-top: 1rem;
-}
-
-.icons > i,
-.icons > span,
-.icons > a {
-  font-size: 32px;
-  display: inline-block;
-  margin-right: 12px;
-}
-
-.highlight {
-  background: #a4e1ff;
-  color: #158;
-  padding: 3px 7px;
-  font-size: 14px;
-  border-radius: 3px;
-  display: inline-block;
-  margin-top: 4px;
-}
-
-.highlight a {
-  color: #168;
-  text-decoration: underline;
-}
-
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .project-block {
-  padding: 10px;
-  /* background: linear-gradient(180deg, #fff, #efefef40); */
   background: #fff;
-  margin: 20px 15px 0px 0px;
-  border: 1px solid #eee5;
-  border-radius: 4px;
-  min-height: 70px;
-  max-width: 400px;
-  position: relative;
   box-shadow: 1px 1px 4px #0002;
-}
-
-.project-block a {
-  font-size: 14px;
-}
-
-.project-block div {
-  margin-left: 55px;
-  margin-bottom: 3px;
-}
-
-.project-block > .las {
-  position: absolute;
-  height: 100%;
-  font-size: 42px;
-  margin-left: -2px;
-  margin-top: -2px;
-}
-
-.project-block .fa-globe,
-.project-block .la-code,
-.project-block .la-github,
-.project-block .la-gitlab {
-  display: inline-block;
-  margin-right: 3px;
-}
-
-.project-caption {
-  font-size: 20px;
-}
-
-.separator {
-  height: 2px;
-  background-color: #fff1;
-  border-bottom: 1px solid #7774;
-  margin-top: 30px;
-  margin-bottom: 2px;
 }
 
 .project-block .description {
   background-color: #ccc3;
-  font-size: 14px;
-  padding: 8px 12px;
-  border-radius: 2px;
   border: 1px solid #fff1;
-  margin-top: 8px;
-  margin-bottom: 12px;
-}
-
-.tech-stack {
-  position: absolute;
-  top: -5px;
-  right: 0px;
-  text-align: right;
-}
-
-.tech-stack i {
-  display: inline-block;
-  margin-right: 5px;
-  font-size: 24px;
-}
-
-.article {
-  margin: 20px 0px;
-  padding-left: 20px;
-  position: relative;
-}
-
-.article::before {
-  position: absolute;
-  display: inline-block;
-  left: 2px;
-  content: "- ";
-}
-
-.article-caption {
-  font-size: 20px;
 }

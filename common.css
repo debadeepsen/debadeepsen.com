@@ -22,7 +22,6 @@ body {
 }
 
 h1 {
-  font-weight: 400;
   font-size: 5rem;
   font-family: Rokkitt, Raleway, Tahoma, sans-serif;
   font-weight: 100;
@@ -116,127 +115,126 @@ li {
   flex-wrap: wrap;
 }
 
-.project-block {	
-  padding: 10px;	
-  margin: 20px 15px 0px 0px;	
-  border-radius: 4px;	
-  min-height: 70px;	
-  max-width: 400px;	
-  position: relative;	
-}	
+.project-block {
+  padding: 10px;
+  margin: 20px 15px 0px 0px;
+  border-radius: 4px;
+  min-height: 70px;
+  max-width: 400px;
+  position: relative;
+}
 
-.project-block a {	
-  font-size: 14px;	
-}	
+.project-block a {
+  font-size: 14px;
+}
 
-.project-block div {	
-  margin-left: 55px;	
-  margin-bottom: 3px;	
-}	
+.project-block div {
+  margin-left: 55px;
+  margin-bottom: 3px;
+}
 
-.project-block > .las {	
-  position: absolute;	
-  height: 100%;	
-  font-size: 42px;	
-  margin-left: -2px;	
-  margin-top: -2px;	
-}	
+.project-block > .las {
+  position: absolute;
+  height: 100%;
+  font-size: 42px;
+  margin-left: -2px;
+  margin-top: -2px;
+}
 
-.project-block .fa-globe,	
-.project-block .la-code,	
-.project-block .la-github,	
-.project-block .la-gitlab {	
-  display: inline-block;	
-  margin-right: 3px;	
-}	
+.project-block .fa-globe,
+.project-block .la-code,
+.project-block .la-github,
+.project-block .la-gitlab {
+  display: inline-block;
+  margin-right: 3px;
+}
 
-.project-caption {	
-  font-size: 20px;	
-}	
+.project-caption {
+  font-size: 20px;
+}
 
-.separator {	
-  height: 2px;	
-  background-color: #fff1;	
-  border-bottom: 1px solid #7774;	
-  margin-top: 30px;	
-  margin-bottom: 2px;	
-}	
+.separator {
+  height: 2px;
+  background-color: #fff1;
+  border-bottom: 1px solid #7774;
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
 
-.project-block .description {	
-  font-size: 14px;	
-  padding: 8px 12px;	
-  border-radius: 2px;	
-  border: 1px solid #fff1;	
-  margin-top: 8px;	
-  margin-bottom: 12px;	
-}	
+.project-block .description {
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 2px;
+  border: 1px solid #fff1;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
 
-.tech-stack {	
-  position: absolute;	
-  top: -5px;	
-  right: 0px;	
-  text-align: right;	
-}	
+.tech-stack {
+  position: absolute;
+  top: -5px;
+  right: 0px;
+  text-align: right;
+}
 
-.tech-stack i {	
-  display: inline-block;	
-  margin-right: 5px;	
-  font-size: 24px;	
-}	
+.tech-stack i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 24px;
+}
 
-.article {	
-  margin: 20px 0px;	
-  padding-left: 20px;	
-  position: relative;	
-}	
+.article {
+  margin: 20px 0px;
+  padding-left: 20px;
+  position: relative;
+}
 
-.article::before {	
-  position: absolute;	
-  display: inline-block;	
-  left: 2px;	
-  content: "- ";	
-}	
+.article::before {
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  content: '- ';
+}
 
-.article-caption {	
-  font-size: 20px;	
-}	
+.article-caption {
+  font-size: 20px;
+}
 
+@media screen and (max-width: 1880px) {
+  .project-block {
+    max-width: inherit !important;
+    width: 40% !important;
+  }
+}
 
-@media screen and (max-width: 1880px) {	
-  .project-block {	
-    max-width: inherit;	
-    width: 40%;	
-  }	
-}	
+@media screen and (max-width: 1600px) {
+  .project-block {
+    max-width: inherit !important;
+    width: 45% !important;
+  }
+}
 
-@media screen and (max-width: 1600px) {	
-  .project-block {	
-    max-width: inherit;	
-    width: 45%;	
-  }	
-}	
+@media screen and (max-width: 1240px) {
+  .project-block {
+    max-width: inherit !important;
+    width: 100% !important;
+  }
+}
 
-@media screen and (max-width: 1240px) {	
-  .project-block {	
-    max-width: inherit;	
-    width: 100%;	
-  }	
-}	
+@media screen and (max-width: 920px) {
+  .container {
+    width: 85vw !important;
+  }
+}
 
-@media screen and (max-width: 920px) {	
-  .container {	
-    width: 85vw;	
-  }	
-}	
+@media screen and (max-width: 640px) {
+  .container {
+    width: 90vw !important;
+  }
+}
 
-@media screen and (max-width: 640px) {	
-  .container {	
-    width: 90vw;	
-  }	
-}	
-
-@media screen and (max-width: 400px) {	
-  h1 {	
-    font-size: 5rem !important;	
-  }	
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 4rem !important;
+  }
 }
