@@ -200,6 +200,10 @@ li {
   font-size: 20px;
 }
 
+.p-icon-sm {
+  display: none;
+}
+
 @media screen and (max-width: 1880px) {
   .project-block {
     max-width: inherit !important;
@@ -218,6 +222,7 @@ li {
   .project-block {
     max-width: inherit !important;
     width: 100% !important;
+    margin-right: 0;
   }
 }
 
@@ -233,8 +238,71 @@ li {
   }
 }
 
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 4rem !important;
+@media screen and (max-width: 480px) {
+  .bg {
+    padding-top: 60px;
   }
+
+  h1 {
+    font-size: 3.5rem !important;
+    margin-top: 90px !important;
+  }
+
+  .bio {
+    font-size: 1rem !important;
+  }
+
+  .tech-stack {
+    top: -12px !important;
+  }
+
+  .p-icon {
+    display: none;
+  }
+
+  .p-icon-sm {
+    display: inline-block;
+    position: relative !important;
+    height: auto !important;
+  }
+
+  .project-block .project-caption {
+    display: inline-block;
+    margin-left: 6px;
+    position: relative;
+    top: -10px;
+  }
+
+  .project-block div {
+    margin-left: 0;
+  }
+
+  .icons i {
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bg {
+    padding-top: 80px;
+  }  
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .project-block {
+    word-break: break-all;
+  }
+
+  .project-block .description {
+    word-break: break-word;
+  }
+
+  .project-block .project-caption {
+    font-size: 1.02rem !important;
+  }
+
 }
