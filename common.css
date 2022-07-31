@@ -133,12 +133,16 @@ li {
   margin-bottom: 3px;
 }
 
-.project-block > .las {
+.project-block > .las, .project-block > .fas {
   position: absolute;
   height: 100%;
   font-size: 42px;
   margin-left: -2px;
   margin-top: -2px;
+}
+
+.project-block > .fas {
+  font-size: 38px;
 }
 
 .project-block .fa-globe,
@@ -151,6 +155,12 @@ li {
 
 .project-caption {
   font-size: 20px;
+}
+
+.badge {
+  object-fit: cover;
+  max-width: 120px;
+  vertical-align: middle;
 }
 
 .separator {
